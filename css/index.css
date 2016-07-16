@@ -1,0 +1,533 @@
+body,h1,h2,h3,h4,h5,h6,input,p{
+	margin: 0;
+	padding: 0;
+	font-family: "Sans-self"
+}
+body{
+	background: #f4f4f4;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+/*顶部开始*/
+.head{
+	width: 100%;
+	height: 50px;
+	background: #474747;
+}
+.head .left{
+	float: left;
+	display: inline-block;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+}
+.head .left img{
+	width: 15px;
+	height: 15px;
+}
+.head .right{
+	float: left;
+}
+.head .right .logo{
+	float: left;
+} 
+.head .right .logo img{
+	width: 42px;
+	height: 42px;
+	margin-top:4px;
+}
+.head .right .wz{
+	width: auto;
+	height: 100%;
+	float: left;
+	margin:8px 0 0 12px;
+	overflow: hidden;
+	color: #fff
+}
+.head .right .wz span{
+	display: block;
+}
+.head .right .wz span:nth-child(1){
+	font-size: 16px;
+}
+.head .right .wz span:nth-child(2){
+	font-size: 12px;
+}
+/*顶部结束*/
+/*banner开始*/
+.swiper-container{
+	width: 100%;
+	max-width: 660px;
+	height: auto;
+}
+.swiper-container .swiper-wrapper{
+	height: 225px;
+}
+.swiper-container  .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+/*banner结束*/
+/*导航开始*/
+.nav{
+	background: #fff;
+	border-bottom: 1px solid #eaeaea;
+	overflow: hidden;
+	padding:19px 0
+}
+.nav a{
+	display:block;
+	width: 20%;
+	float: left;
+	color: #666;
+	text-align: center;
+}
+.nav a img{
+	border-radius: 5px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+.nav a span{
+	display: block;
+	margin-top:10px;
+}
+/*导航结束*/
+/*智能头条开始*/
+.zntt{
+	background: #fff;
+	padding: 14px 16px;
+	overflow: hidden;
+}
+.zntt .title{
+	border-right: 1px solid #e1e1e1;
+	float: left;
+	font-size: 14px;
+	height: 19px;
+	padding-right: 5px;
+}
+.zntt .title img{
+	width: 75px;
+	height: 100%;
+}
+.zntt .con{
+	
+	float:left;
+	height: 16px;
+	line-height: 16px;
+	margin-left: 5px;
+	overflow: hidden;
+	
+}
+.zntt .con .co{
+	height: 64px;
+}
+.zntt .con a{
+	color: #666;
+	display: block;
+	font-size: 14px;
+}
+.zntt .con a span:first-child{
+	color: #f66
+}
+
+/*智能头条结束*/
+/*掌上抢开始*/
+.zsq{
+	width: 100%;
+	height: 236px;
+	background: #fff;
+	margin-top:12px;
+}
+.zsq .top{
+	/*width: 100%;*/
+	padding: 0 18px;
+	height: 46px;
+	line-height: 46px;
+	border-bottom: 1px solid #eaeaea;
+	position: relative;
+}
+.zsq .top .title{
+	color: #f55;
+	float: left;
+}
+.zsq .top .time{
+	margin-left: 14px;
+	float: left;
+	font-size: 12px;
+}
+.zsq .top .time span{
+	padding: 2px 2px;
+	border:1px solid #AAAAAA;
+	margin: -3px
+}
+.zsq .top .right{
+	position: absolute;
+	right: 18px;
+	font-size: 14px
+}
+.zsq .swiper-container1{
+	width: 100%;
+	margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1
+}
+.zsq .swiper-container1 ul{
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+}
+.zsq .swiper-container1 ul li{
+	width: 33.333333%;
+	height: auto;
+	margin: 12px 0;
+	border-right:1px solid #f1f1f1;
+	float: left;
+	box-sizing:border-box;
+	text-align: center;
+}
+.zsq .swiper-container1 ul li:last-child{
+	border-right: 0
+}
+.zsq .swiper-container1 ul li .img{
+	display: block;
+	margin: 0 5px;
+}
+.zsq .swiper-container1 ul li .img img{
+	width: 114px;
+	height: 114px;
+}
+.zsq .swiper-container1 ul li .con{
+	color: #555;
+	display: block;
+	height: 19px;
+	line-height: 19px;
+	font-size: 14px;
+	margin:6px 10px 0
+}
+.zsq .swiper-container1 ul li .price{
+	display: block;
+	margin: 6px 10px 0;
+	color: #f55;
+	font-size: 16px
+}
+.zsq .swiper-container1 ul li .price b{
+	font-size: 14px
+}
+/*掌上抢结束*/
+/*掌上抢下开始*/
+.zx{
+	width:100%;
+	height: auto;
+}
+.zx a{
+	display: block;
+}
+.zx a img{
+	width: 100%;
+	height: auto
+}
+/*掌上抢下结束*/
+/*明星单品开始*/
+.mxdp{
+	overflow: hidden;
+}
+.mxdp h2{
+	color: #666;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 300
+}
+.mxdp h2 em{
+	color: #ccc;
+	font-style: normal;
+}
+.mxdp .box{
+	background: #fff;
+	overflow: hidden;
+}
+.mxdp .box li{
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+	padding: 18px 0 10px;
+	width: 50%;
+	float: left;
+	box-sizing:border-box;
+}
+.mxdp .box li:nth-child(2n){
+	border-right: 0
+}
+.mxdp .box li a{
+	display: block;
+	color: #666;
+	text-align: center;
+}
+.mxdp .box li a .title{
+	border: 1px solid #e1e1e1;
+	border-radius:20px;
+	padding: 5px;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+}
+.mxdp .box li a .title img{
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.mxdp .box li a .title em{
+	float: left;
+	color: #222;
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 5px;
+	font-style: normal;
+}
+.mxdp .box li a  .img{
+	display: block;
+	text-align: center;
+	margin:7px 10px 0;
+}
+.mxdp .box li a  .img img{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto
+}
+.mxdp .box li a .con{
+	color: #555;
+	display: block;
+	height: 19px;
+	line-height: 19px;
+	font-size: 14px;
+	margin:7px 10px 0
+}
+.mxdp .box li a .price{
+	display: block;
+	margin: 7px 10px 0;
+	color: #f55;
+	font-size: 16px
+}
+.mxdp .box li a .price b{
+	font-size: 14px
+}
+/*明星单品结束*/
+/*新品上市开始*/
+.xpss{
+	overflow: hidden;
+}
+.xpss h2{
+	color: #666;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 300
+}
+.xpss h2 em{
+	color: #ccc;
+	font-style: normal;
+}
+.xpss .bottom{
+	overflow: hidden;
+}
+.xpss .bottom a{
+	display: block;
+	background: #fff;
+	margin-bottom: 12px;
+}
+.xpss .bottom a .img{
+	position: relative;
+}
+.xpss .bottom a .img img{
+	width: 100%;
+	height: auto
+}
+.xpss .bottom a .img .price{
+	width: 64px;
+	height: 32px;
+	display: block;
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700
+}
+.xpss .bottom a .title{
+	color: #222;
+	font-size: 16px;
+	margin-top:18px;
+	padding:0 18px;
+}
+.xpss .bottom a .con{
+	color: #999;
+	font-size: 12px;
+	margin-top:10px;
+	padding: 0 18px 18px
+}
+/*新品上市结束*/
+/*手机开始*/
+.sj{
+	overflow: hidden;
+}
+.sj h2{
+	color: #666;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 300
+}
+.sj h2 em{
+	color: #ccc;
+	font-style: normal;
+}
+.sj .img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.sj .img a{
+	display:block;
+	font-size: 0 
+}
+.sj .img a img{
+	width: 100%;
+	height: auto;
+}
+.sj .box{
+	background: #fff;
+	width: 100%;
+	overflow:hidden;
+	height: auto 
+}
+.sj .box li{
+	width: 50%;
+	float: left;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	padding:18px 0 10px;
+	box-sizing:border-box; 
+}
+.sj .box li:nth-child(2n){
+	border-right: 0
+}
+.sj .box li a{
+	display: block;
+}
+.sj .box li a  .img1{
+	display: block;
+	text-align: center;
+	margin:7px 10px 0;
+}
+.sj .box li a  .img1 img{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto
+}
+.sj .box li a .title{
+	margin:7px 10px 0;
+	display: block;
+	color: #555;
+	font-size: 14px
+}
+.sj .box li a .con{
+	color: #999;
+	display: block;
+	margin:4px 10px 0;
+	font-size: 12px
+}
+.sj .box li a .price{
+	display: block;
+	margin: 7px 10px 0;
+	color: #f55;
+	font-size: 16px
+}
+.sj .box li a .price b{
+	font-size: 14px
+}
+/*手机结束*/
+/*查看更多开始*/
+.more{
+	display:block;
+	width: 100%;
+	height: 51px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	line-height: 51px;
+	color: #666;
+	font-size: 12px
+}
+/*查看更多结束*/
+/*服务开始*/
+.ser{
+	width: 100%;
+	padding: 15px 0;
+	background: #fff
+}
+.ser .list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+
+}
+.ser .list li{
+	width: 33.3333333%;
+	border-right: 1px solid #d6d6d6;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+	box-sizing:border-box;
+}
+.ser .list li:last-child{
+	border-right:0;
+}
+.ser .list li .tu{
+	display: block;
+	width: 39px;
+	height:39px;
+	border:1px solid #aaa;
+	border-radius: 50%;
+	margin: 0 auto;
+	line-height:39px;
+	text-align: center;
+	font-size: 12px
+}
+.ser .list li .zi{
+	display: block;
+	margin-top:8px;
+}
+/*服务结束*/
+/*版权开始*/
+.bq{
+	border-top: 1px solid #d6d6d6;
+	font-size: 10px;
+	line-height: 24px;
+	color: #999;
+	text-align: center;
+	background: #fff
+}
+/*版权结束*/
